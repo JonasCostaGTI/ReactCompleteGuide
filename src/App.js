@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
 
-
 class App extends Component {
   state = {
     persons: [
@@ -85,10 +84,6 @@ class App extends Component {
     if (this.state.persons.length <= 1) {
       classes.push('bold');
     }
-
-
-
-
 
     return (
 
