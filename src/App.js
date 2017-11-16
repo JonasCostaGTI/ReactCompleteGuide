@@ -31,7 +31,6 @@ class App extends Component {
 
     this.setState({ persons: persons });
   }
-
   deletePersonHandler = (personIndex) => {
     //const persons = this.state.persons.slice();
     const persons = [...this.state.persons];
@@ -53,7 +52,7 @@ class App extends Component {
       color: 'white',
       font: 'inherit',
       border: '1px solid blue',
-      padding: '8px',
+      padding: '9px',
       cursor: 'pointer'
     };
     let persons = null;
