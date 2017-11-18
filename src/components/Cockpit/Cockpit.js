@@ -20,6 +20,7 @@ const cockpit = (props) => {
 
     return (
         <div className={classes.Cockpit}>
+            <h1>{props.appTitle}</h1>
             <h1>Ola Mundo React</h1>
             <h1>React is coll!</h1>
             <p className={assignedClasses.join(' ')}>This is really working!!</p>
